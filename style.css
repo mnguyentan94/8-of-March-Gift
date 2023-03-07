@@ -1,0 +1,22 @@
+.navbar-brand {
+    display: block;
+    margin: auto;
+  }
+  
+  /* Add padding to the body */
+  body {
+    padding: 50px;
+  }
+  
+  /* Style the gallery images */
+  .img-fluid {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+  }
+  
+  /* Add margins to the sections */
+  section {
+    margin-bottom: 50px;
+  }
