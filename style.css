@@ -3,11 +3,29 @@
     margin: auto;
   }
   
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    transition: background-color 0.5s ease-out;
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  .header.scroll {
+    background-color: black;
+  }
+  
   /* Add padding to the body */
   body {
     padding: 50px;
+    background-color: #fff;
   }
-  
+
   /* Style the gallery images */
   .img-fluid {
     margin-bottom: 20px;
